@@ -1,8 +1,9 @@
-// calc.js
-//
-// node calc.js 1 'plus' 2
-//  0     1     2   3    4
-//
+/* app.js
+node app.js 1 'plus' 2    <-- Argument values
+ [0] [1]   [2] [3]  [4]   <-- Argument addresses
+
+process.argv is an array!
+*/
 let firstInt = process.argv[2];
 let operator = process.argv[3];
 let secondInt = process.argv[4];
