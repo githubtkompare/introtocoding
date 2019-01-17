@@ -8,3 +8,7 @@ let firstInt = process.argv[2];
 let operator = process.argv[3];
 let secondInt = process.argv[4];
 console.log(firstInt+' '+operator+' '+secondInt);
+
+/*
+Try: 1 'plus' 2
+*/
