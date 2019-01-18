@@ -10,7 +10,7 @@ let firstInt = parseInt(process.argv[2]);
 let operator = process.argv[3].toString();
 let secondInt = parseInt(process.argv[4]);
 
-if (firstInt isNaN || secondInt isNaN) {
+if (isNaN(firstInt) || isNaN(secondInt)) {
   result = "ERROR: First and third argument must be integers.";
 } else {
   if(operator === 'plus'){
